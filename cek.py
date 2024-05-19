@@ -2,9 +2,7 @@ import requests
 
 def check_proxy(proxy):
     urls = [
-        "https://www.example.com",
         "https://www.google.com",
-        "https://www.github.com",
         # Tambahkan daftar URL yang ingin Anda coba akses di sini
     ]
     for url in urls:
