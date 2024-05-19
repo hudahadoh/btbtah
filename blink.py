@@ -1,3 +1,7 @@
+# Create By Monnalisa-ID
+# Bot Safelinku Version BETA
+# DECODE = LEMAH!
+# Susah Susah Buat Malah di decode anjg emang!
 import time
 import sys
 import random
@@ -32,10 +36,10 @@ kur2 = Style.BRIGHT + Fore.RED + "]"
 print(f"""{biru}
 ╔╗ ┌─┐┌┬┐ ╔═╗┌─┐┌─┐┌─┐┬  ┬┌┐┌┬┌─┬ ┬
 ╠╩╗│ │ │  ╚═╗├─┤├┤ ├┤ │  ││││├┴┐│ │
-╚═╝└─┘ ┴  ╚═╝┴ ┴└  └─┘┴─┘┴┘└┘┴ ┴└─┘With Selenium\n{hijau}Bot Version : FINAL\n""")
+╚═╝└─┘ ┴  ╚═╝┴ ┴└  └─┘┴─┘┴┘└┘┴ ┴└─┘With Selenium\n{hijau}Bot Version : BETA\n""")
 time.sleep(3)
 print('_' * 60)
-print(f"""{cyan2}SELAMAT DATANG TUANKU\n{red}Created By Gigoloco ID\n{hijau}Contact Me on : https://github.com/Monnalisa-ID\n{red}This Version Final""")
+print(f"""{cyan2}WELCOME TO BOT SAFELINKU\n{red}Created By Monnalisa ID\n{hijau}Contact Me on : https://github.com/Monnalisa-ID\n{red}This Still Version Beta|ComingSoon Version Final""")
 time.sleep(5)
 
 print("\n")
@@ -43,12 +47,12 @@ print('=' * 60)
 
 time.sleep(1)
 
-kw = input(f"{cyan}Enter Link sia Tuanku (Safelinku)\n{hijau}example :https://locoloc.com/xxxxxx : ")
+kw = input(f"{cyan}Enter Link Your (Safelinku)\n{hijau}example :https://semawur.com/xxxxxx : ")
 time.sleep(1)
 os.system('clear')
 
 time.sleep(3)
-print("Link tuanku sukses diinput, ke di kocok heula geus bucat di kabaran ku aing ka tuanku....")
+print("Your Link Has been input....")
 
 # Baca user-agent dari file ua.txt
 with open('ua.txt', 'r') as ua_file:
@@ -56,9 +60,9 @@ with open('ua.txt', 'r') as ua_file:
     user_agent = random.choice(user_agents)  # Pilih user-agent secara acak
 
 pl = []
-prolist = requests.get("https://sunny9577.github.io/proxy-scraper/proxies.txt").text
-prolist1 = requests.get("https://sunny9577.github.io/proxy-scraper/proxies.csv").text
-prolist2 = requests.get("https://sunny9577.github.io/proxy-scraper/proxies.json").text
+prolist = requests.get("https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt").text
+prolist1 = requests.get("https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt").text
+prolist2 = requests.get("https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt").text
 dl = []
 for i in prolist.splitlines():
     pl.append(i)
