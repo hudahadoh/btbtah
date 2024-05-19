@@ -2,7 +2,9 @@ import requests
 
 def check_proxy(proxy):
     urls = [
+        "https://www.example.com",
         "https://www.google.com",
+        "https://www.github.com",
         # Tambahkan daftar URL yang ingin Anda coba akses di sini
     ]
     for url in urls:
@@ -11,8 +13,10 @@ def check_proxy(proxy):
             if response.status_code == 200:
                 print(f"Proxy {proxy} is working for URL: {url}")
                 return True
+        except requests.exceptions.ProxyError as pe:
+            print(f"Proxy {proxy} is not working for URL: {url}. Proxy Error: {pe}")
         except Exception as e:
-            print(f"Proxy {proxy} is not working for URL: {url}. Error: {e}")
+            print(f"Error occurred while checking proxy {proxy} for URL: {url}. Error: {e}")
     return False
 
 def main():
