@@ -36,10 +36,10 @@ kur2 = Style.BRIGHT + Fore.RED + "]"
 print(f"""{biru}
 ╔╗ ┌─┐┌┬┐ ╔═╗┌─┐┌─┐┌─┐┬  ┬┌┐┌┬┌─┬ ┬
 ╠╩╗│ │ │  ╚═╗├─┤├┤ ├┤ │  ││││├┴┐│ │
-╚═╝└─┘ ┴  ╚═╝┴ ┴└  └─┘┴─┘┴┘└┘┴ ┴└─┘With Selenium\n{hijau}Bot Version : BETA\n""")
+╚═╝└─┘ ┴  ╚═╝┴ ┴└  └─┘┴─┘┴┘└┘┴ ┴└─┘Cap OT\n{hijau}OT Version : amer arak ciu-ciu kawa-kawa\n""")
 time.sleep(3)
 print('_' * 60)
-print(f"""{cyan2}WELCOME TO BOT SAFELINKU\n{red}Created By Monnalisa ID\n{hijau}Contact Me on : https://github.com/Monnalisa-ID\n{red}This Still Version Beta|ComingSoon Version Final""")
+print(f"""{cyan2}selamat datang tuanku\n{red}Created By mabok heula ID\n{hijau}Contact Me on : babah botak cap OT\n{red}Ieu mah Versi final|ngajeod we sia mah""")
 time.sleep(5)
 
 print("\n")
@@ -47,12 +47,12 @@ print('=' * 60)
 
 time.sleep(1)
 
-kw = input(f"{cyan}Enter Link Your (Safelinku)\n{hijau}example :https://semawur.com/xxxxxx : ")
+kw = input(f"{cyan}Asupkeun Link siana (Safelinku)\n{hijau}contohna jiga kieu :https://semawur.com/xxxxxx : ")
 time.sleep(1)
 os.system('clear')
 
 time.sleep(3)
-print("Your Link Has been input....")
+print("link sia sukses di input bray, dagoan urang kocok heula nepi ka bucat....")
 
 # Baca user-agent dari file ua.txt
 with open('ua.txt', 'r') as ua_file:
